@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global Styling */
+body {
+  font-family: 'UnifrakturMaguntia', cursive;
+  background-color: #FAF8F5;
+  color: #0F0F0F;
+  line-height: 1.8;
+}
+
+/* Headings */
+h1, h2, h3 {
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}
+
+h1 {
+  font-size: 4rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+/* Main Layout */
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 2rem;
+}
+
+/* Chatbot UI */
+.chatbox {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  max-width: 600px;
+  margin: 20px auto;
+  border: 1px solid #ddd;
+}
+
+/* Chat Messages */
+.message {
+  margin-bottom: 12px;
+  padding: 10px 14px;
+  border-radius: 6px;
+  max-width: 80%;
+}
+
+.user-message {
+  background-color: #0F0F0F;
+  color: #FAF8F5;
+  text-align: right;
+  margin-left: auto;
+}
+
+.bot-message {
+  background-color: #FAF8F5;
+  color: #0F0F0F;
+  border: 1px solid #ddd;
+  text-align: left;
+  margin-right: auto;
+}
+
+/* Input Field */
+.input-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+button {
+  background: #0F0F0F;
+  color: #FAF8F5;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 1rem;
+  margin-left: 8px;
+}
+
+button:hover {
+  background: #222;
+}
